@@ -1,0 +1,41 @@
+PARSEC Compile Information
+==========================
+Package 'io_uring'
+Built on Wed 27 Jul 2022 05:07:55 PM +08
+
+Configure arguments:  
+
+Environment modifications: 
+
+CC: /usr/bin/gcc
+Version: gcc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0
+Copyright (C) 2019 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+CFLAGS:  -O2 -g -funroll-loops -fprefetch-loop-arrays -lrt -I/home/caleb/PASSTA/apps/microbench/pkgs/tracing/include -Wall -Wextra -Wl,--hash-style=both,--as-needed -DMICRO_VERSION=0.4-beta  
+
+CXX: /usr/bin/g++
+Version: g++ (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0
+Copyright (C) 2019 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+CXXFLAGS:  -O2 -g -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -lrt -I/home/caleb/PASSTA/apps/microbench/pkgs/tracing/include -Wall -Wextra -Wl,--hash-style=both,--as-needed -DMICRO_VERSION=0.4-beta  
+
+CCAS: 
+Version: 
+CCASFLAGS: 
+
+LD: /usr/bin/ld
+Version: GNU ld (GNU Binutils for Ubuntu) 2.34
+Copyright (C) 2020 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) a later version.
+This program has absolutely no warranty.
+LDFLAGS:  -L/home/caleb/PASSTA/apps/microbench/pkgs/io_uring_libs/aarch64   -luring
+
+JAVAC: /usr/bin/javac
+Version: 
+JFLAGS: 
+
+Build command: 
+[EOF]
